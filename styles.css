@@ -246,8 +246,8 @@ nav {
   font-weight: bold;
   color: #ffffff;
   white-space: nowrap;
-  background-color: #CDDC39;
-  border-radius: 5px;
+  background-color: var(--text-heading);
+  border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
 }
