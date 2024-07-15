@@ -61,3 +61,36 @@ ScrollReveal().reveal(".about__card", {
 const swiper = new Swiper(".swiper", {
   loop: true,
 });
+
+function updateMetaTags(section) {
+  const metaDescription = document.querySelector('meta[name="description"]');
+  const metaKeywords = document.querySelector('meta[name="keywords"]');
+  const title = document.querySelector('title');
+
+  switch(section) {
+    case 'about':
+      metaDescription.setAttribute('content', 'Learn more about Relyzers, your reliable digital service provider.');
+      metaKeywords.setAttribute('content', 'Relyzers, about us, digital services');
+      title.textContent = 'About Us - Relyzers';
+      break;
+    case 'services':
+      metaDescription.setAttribute('content', 'Discover the range of services offered by Relyzers.');
+      metaKeywords.setAttribute('content', 'Relyzers, services, digital solutions');
+      title.textContent = 'Our Services - Relyzers';
+      break;
+    case 'contact':
+      metaDescription.setAttribute('content', 'Get in touch with Relyzers for top-notch digital services.');
+      metaKeywords.setAttribute('content', 'Relyzers, contact, digital services');
+      title.textContent = 'Contact Us - Relyzers';
+      break;
+    default:
+      metaDescription.setAttribute('content', 'Relyzers offers top-notch digital services including logo design, product designing, content writing, web development, and more.');
+      metaKeywords.setAttribute('content', 'digital services, logo design, product designing, content writing, web development, graphic design, app development, social media growth, ad running, Relyzers');
+      title.textContent = 'Relyzers - Expert Digital Services for Your Brand';
+  }
+}
+
+window.addEventListener('hashchange', () => {
+  const section = window.location.hash.substring(1);
+  updateMetaTags(section);
+});
