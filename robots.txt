@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /admin/
 Allow: /
 Sitemap: https://cykoravish.github.io/RELYZERS/sitemap.xml
