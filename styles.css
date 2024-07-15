@@ -266,32 +266,51 @@ nav {
 .about__image {
   overflow: hidden;
 }
+
 .about__image {
-  text-align: center; /* Center the image horizontally */
-  padding: 20px; /* Add some padding around the image */
-  background-color: #f9f9f9; /* Light background to make the image stand out */
-  border-radius: 25px; /* Rounded corners for the container */
-  max-width: 100%; /* Ensure the container does not overflow */
-  margin: auto; /* Center the container */
+  text-align: center;
+  /* Center the image horizontally */
+  padding: 20px;
+  /* Add some padding around the image */
+  background-color: #f9f9f9;
+  /* Light background to make the image stand out */
+  border-radius: 25px;
+  /* Rounded corners for the container */
+  max-width: 100%;
+  /* Ensure the container does not overflow */
+  margin: auto;
+  /* Center the container */
 }
+
 .about__image img {
-  border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
-  width: 100%; /* Ensure the image is responsive */
-  height: auto; /* Maintain the aspect ratio */
+  border-radius: 20px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Smooth transition for hover effects */
+  width: 100%;
+  /* Ensure the image is responsive */
+  height: auto;
+  /* Maintain the aspect ratio */
 }
 
 .about__image img:hover {
-  transform: scale(1.05); /* Slight zoom-in on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: scale(1.05);
+  /* Slight zoom-in on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Enhanced shadow on hover */
 }
+
 @media (max-width: 768px) {
   .about__image img {
-    border-radius: 10px; /* Adjust border radius for smaller screens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow for smaller screens */
+    border-radius: 10px;
+    /* Adjust border radius for smaller screens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Lighter shadow for smaller screens */
   }
 }
+
 .about__card h3 {
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
@@ -495,6 +514,13 @@ nav {
   color: #d1d1d1;
   opacity: 0.8;
   text-align: center;
+}
+
+.mailAdd {
+  color: #d1d1d1;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  font-weight: 500;
 }
 
 @media (width > 540px) {
