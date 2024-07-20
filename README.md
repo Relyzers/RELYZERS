@@ -77,14 +77,6 @@ Follow us on social media for updates and special offers:
 
 ---
 
-## 🔗 Useful Links
-
-<!-- - [Our Portfolio](https://www.relyzers.com/portfolio) 🖼️
-- [Blog](https://www.relyzers.com/blog) 📝
-- [Help Center](https://www.relyzers.com/help) 🆘 -->
-
----
-
 ## 📢 Join Us on Our Journey
 
 Be a part of our growing community and watch how we help brands like yours achieve success. 
