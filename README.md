@@ -57,15 +57,12 @@ Ready to transform your online presence? Follow these simple steps to get starte
 
 Have questions or want to start a project? We’re here to help!
 
-<!-- - **Email:** [support@relyzers.com](mailto:support@relyzers.com)
-- **Phone:** +1 (123) 456-7890
-- **Address:** 123 Digital Avenue, Tech City, TX 75001, USA -->
+**Email:** [support@relyzers.com](mailto:support@relyzers.com)
 
 Follow us on social media for updates and special offers:
 
 - [Instagram](https://www.instagram.com/relyzers) 📸
-<!-- - [Facebook](https://www.facebook.com/relyzers) 📘
-- [Twitter](https://twitter.com/relyzers) 🐦 -->
+
 
 ---
 
