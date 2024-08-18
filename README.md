@@ -61,7 +61,7 @@ Have questions or want to start a project? We’re here to help!
 
 Follow us on social media for updates and special offers:
 
-- [Instagram](https://www.instagram.com/relyzers) 📸
+- [Instagram](https://www.instagram.com/_relyzers) 📸
 
 
 ---
